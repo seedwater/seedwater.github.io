@@ -1,0 +1,53 @@
+---
+layout: master
+---
+{% if page.carousel %}
+<!-- Google CDN Hosted jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<!-- Flexslider Library  
+<script src="/js/flexslider.min.js"></script>
+-->
+<!-- Initialisation Code  -->
+<script src="/js/app.js"></script>
+{% endif %}
+
+<header class="masthead">
+  <h1 class="masthead-title--small">
+    <a href="{{ site.baseurl }}/"><img src="/assets/img/seedwater_linear_small.png" alt="seedwater"></a>
+  </h1>
+  <nav class="masthead-nav">
+    {% for nav in site.nav %}
+    <a href="{{ nav.href }}">{{ nav.name }}</a>
+    {% endfor %}
+  </nav>
+</header>      
+<div class="content post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-date">
+    <time>{{ page.date | date_to_string }}</time>
+  </div>
+  {{ content }}
+</div>
+
+{% include sidebar.html %}
+
+<div class="content page">
+      
+    {% if page.carousel %}
+      <div class="flexslider">
+        <ul class="slides">
+          {% for slides in page.carousel %}
+          <li>
+            <img src="{{ slides.image }}">
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+  {% endif %}
+    
+  <div class="topborder">
+    <div class="pagebody">
+        {{ content }}
+    </div>
+  </div>
+</div>

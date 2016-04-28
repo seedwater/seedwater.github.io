@@ -1,0 +1,21 @@
+---
+layout: consulting
+---
+<!-- <header class="masthead">
+  <h1 class="masthead-title--small">
+    <a href="{{ site.baseurl }}/"><img src="/assets/img/seedwater_linear_small.png" alt="seedwater"></a>
+  </h1>
+  <nav class="masthead-nav">
+    {% for nav in site.nav %}
+    <a href="{{ nav.href }}">{{ nav.name }}</a>
+    {% endfor %}
+  </nav>
+</header> 
+-->
+
+{% include sidebar.html %}
+
+<div class="content page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {{ content }}
+</div>

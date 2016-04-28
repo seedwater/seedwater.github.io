@@ -1,0 +1,64 @@
+<!-- SEE http://jsfiddle.net/sg3s/RZpbK/ for inspiration -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="/js/slide2.js"></script>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+<div class="sidebar4">
+
+    <div id="left">
+            <div class="sidebar-about">
+                <a href="{{ site.baseurl }}/consulting/"> <img src="/assets/img/seedwater_consulting.png" class="custom2" alt="seedwater" width="200"> </a>
+            </div>
+          <div class="container sidebar-sticky">
+                 <!-- <h1>
+                <a href="{{ site.baseurl }}">
+                  {{ site.title }}
+                </a>
+              </h1> 
+              <p class="lead">{{ site.description }}</p>
+            <div>
+                -->
+                <!-- <nav class="sidebar-nav"> -->
+
+              <nav class="sidebar-nav">
+                    <a href="{{ site.baseurl }}/" class="sidebar-nav-item">HOME</a>
+                    <a href="#target1" class="sidebar-nav-item"> ABOUT</a>
+                    <a href="{{ site.baseurl }}/consulting/approach" class="sidebar-nav-item"> APPROACH</a>
+                    <a href="#target2" class="sidebar-nav-item">PROJECTS</a>
+                    <a href="{{ site.baseurl }}/consulting/partners/" class="sidebar-nav-item">PARTNERS</a>
+                    <a href="#target3" class="sidebar-nav-item">CONTACT</a>
+              </nav>
+              <div class="footer">
+                      <span id="footer-links">
+                        <a href="twitter.com/seedwater" target="_blank"> <i class="fa fa-twitter fa-2x"></i></a>
+                        <span class="separator">•</span>
+                        <a href="facebook.com/seedwater" target="_blank"> <i class="fa fa-facebook fa-2x"></i></a>
+                        <span class="separator">•</span>
+                        <a href="youtube.com/seedwater" target="_blank"> <i class="fa fa-youtube-square fa-2x"></i></a>
+                      </span>
+                <span class="sidebar-nav-item">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</span>
+                </div>
+            </div>
+    </div>
+
+    <div id="right">
+        <div class="container sidebar-sticky-right">
+            <div class="panel" id="target1">
+                <p><a href="{{ site.baseurl }}/consulting/expertise/">Expertise</a></p>
+                <p><a href="{{ site.baseurl }}/consulting/team/">Team</a></p>
+                <p><a href="{{ site.baseurl }}/consulting/vision/">Vision</a></p>
+            </div>
+            <div class="panel" id="target2">
+                <p><a href="{{ site.baseurl }}/consulting/where-we-work/">Where We Work</a></p>
+                <p><a href="{{ site.baseurl }}/consulting/past-projects/">Past Projects</a></p>
+            </div>
+            <div class="panel" id="target3">
+                <p><a href="{{ site.baseurl }}/consulting/work-with-us/">Work With Seedwater</a></p>
+                <p><a href="{{ site.baseurl }}/consulting/contact/">Contact Us</a></p>
+            </div>
+        </div>
+    </div>
+</div>
