@@ -1,0 +1,55 @@
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/font-awesome-4.3.0/css/font-awesome.min.css">
+<div class="sidebar">
+     <div class="sidebar-about">
+    <a href="{{ site.baseurl }}/consulting/"> <img src="/assets/img/seedwater_consulting.png" class="custom2" alt="seedwater" width="200"> </a>
+    </div>
+  <div class="container sidebar-sticky">
+         <!-- <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1> 
+      <p class="lead">{{ site.description }}</p>
+    <div>
+        -->
+        <nav class="sidebar-nav">
+            <a class="sidebar-nav-item" href="{{ site.baseurl }}/consulting/"> HOME </a>
+            <a class="sidebar-nav-item" href="{{ site.baseurl }}/consulting/approach/"> APPROACH </a>
+            <a class="sidebar-nav-item" href="{{ site.baseurl }}/consulting/expertise/"> EXPERTISE </a>
+            <a class="sidebar-nav-item" href="{{ site.baseurl }}/consulting/our-work/"> OUR WORK </a>
+            <a class="sidebar-nav-item" href="{{ site.baseurl }}/consulting/partners/"> PARTNERS </a>
+            <a class="sidebar-nav-item" href="{{ site.baseurl }}/consulting/contact/"> CONTACT </a>
+             {% comment %}
+              {% comment %}
+                The code below dynamically generates a sidebar nav of pages with
+                `layout: page` in the front-matter. See readme for usage.
+              {% endcomment %}
+
+              {% assign pages_list = site.pages %}
+              {% for node in pages_list %}
+                {% if node.title != null %}
+                  {% if node.layout == "page" %}
+                    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            {% endcomment %}
+        {% comment %}
+            <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
+          <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+          <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+        {% endcomment %}
+        </nav>
+        <div class="footer">
+              <span id="footer-links">
+                <a href="http://twitter.com/seedwater" target="_blank"> <i class="fa fa-twitter fa-2x"></i></a>
+                <span class="separator">   </span>
+                <a href="http://facebook.com/seedwater" target="_blank">&nbsp;<i class="fa fa-facebook fa-2x"></i></a>
+                <span class="separator">   </span>
+                <a href="http://linkedin.com/seedwater" target="_blank">&nbsp;&nbsp;<i class="fa fa-linkedin fa-2x"></i></a>
+              </span>
+        <span class="sidebar-nav-item">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</span>
+        </div>
+    </div>
+</div>
+</div>

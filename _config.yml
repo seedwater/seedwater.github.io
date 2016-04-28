@@ -1,0 +1,47 @@
+# # # # # # # #
+#  Seedwater  #
+# # # # # # # #
+
+# Basic
+name:               "seedwater"
+title:  "seedwater group"
+
+# URL
+baseurl:            ""
+#baseurl:            "" #For Root Domain
+permalink:          /:year/:month/:day/:title.html
+
+# Markdown
+markdown:           rdiscount
+
+# Navigation
+nav:
+  - name:           "About"
+    href:           "/about"
+  - name:           "Vision"
+    href:           "/vision"
+
+# Sass
+sass:
+    sass_dir: assets/stylesheets
+    style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+include: [
+  ".htaccess",
+  ".htpasswd"
+]
