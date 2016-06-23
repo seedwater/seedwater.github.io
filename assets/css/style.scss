@@ -63,7 +63,7 @@ body {
 }
 @media (min-width: 48em) {
   .sidebar {
-    font-family: "CaviarDreams", Helvetica, Arial, sans-serif;
+    font-family: "Quicksand", Helvetica, Arial, sans-serif;
     position: fixed;
     top: 0;
     left: 0;
@@ -75,7 +75,7 @@ body {
 
 @media screen and (max-height: 650px) {
   a.sidebar-nav-item {
-    font-family: "CaviarDreams", Helvetica, Arial, sans-serif;
+    font-family: "Quicksand", Helvetica, Arial, sans-serif;
     font-size: 14px;
   }
     div.container.sidebar-sticky {
@@ -242,7 +242,7 @@ div.topborder {
     margin-top: 2rem;
     }
     blockquote.header {
-      font-family: "CaviarDreams", Helvetica, Arial, sans-serif;
+      font-family: "CaviarDreams", "Quicksand", Helvetica, Arial, sans-serif;
       color: #FFFFFF;
       border-left: .5rem solid #C38A8A;
       font-size: 40px;
@@ -252,7 +252,7 @@ div.topborder {
         margin-top: -20px;
     }
     blockquote.header2 {
-      font-family: "CaviarDreams", Helvetica, Arial, sans-serif;
+      font-family: "CaviarDreams", "Quicksand", Helvetica, Arial, sans-serif;
       color: #FFFFFF;
       border-left: .5rem solid #C38A8A;
       font-size: 40px;
@@ -382,7 +382,7 @@ a {
 }
 
 h1 {
-  font-family: "CaviarDreams", Helvetica, Arial, sans-serif;
+  font-family: "CaviarDreams", "Quicksand", Helvetica, Arial, sans-serif;
   //font-family: "Amatic SC", Helvetica, Arial, sans-serif;
   //font-family: "Quicksand", Helvetica, Arial, sans-serif;
   margin-top: 0;
@@ -394,7 +394,7 @@ h1 {
 }
 
 h2 {
-  font-family: "CaviarDreams", Helvetica, Arial, sans-serif;
+  font-family: "CaviarDreams", "Quicksand", Helvetica, Arial, sans-serif;
   //font-family: "Amatic SC", Helvetica, Arial, sans-serif;
   //font-family: "Quicksand", Helvetica, Arial, sans-serif;
   margin-top: 0;
@@ -406,7 +406,7 @@ h2 {
 }
 
 h3 {
-  font-family: "CaviarDreams", Helvetica, Arial, sans-serif;
+  font-family: "CaviarDreams", "Quicksand", Helvetica, Arial, sans-serif;
   //font-family: "Amatic SC", Helvetica, Arial, sans-serif;
   //font-family: "Quicksand", Helvetica, Arial, sans-serif;
   margin-top: 0;
@@ -692,7 +692,7 @@ img.custom2 {
   display: block;
   margin: 0 auto;
   border-radius: 5px;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 img.custom3 {
@@ -981,7 +981,7 @@ tbody tr:nth-child(odd) th {
     left:10px;
     // width:80px;
     height:28px;
-    font-family:"CaviarDreams";
+    font-family:"CaviarDreams", "Quicksand";
     background-color:rgba(6, 66, 31, 0.59);
     color: #FFF;
     border:1px solid black;
@@ -1113,7 +1113,7 @@ display:table;
 border-collapse:collapse;
 border-spacing:0;
 color:#999;
- font-family: "CaviarDreams";
+ font-family: "CaviarDreams", "Quicksand";
 font-size: 14px;
 text-decoration:none;
 -webkit-transform:translateZ(0) scale(1,1);
@@ -1137,7 +1137,7 @@ position:relative;
 display:table-cell;
 vertical-align:middle;
 width:220px;
-font-family: 'CaviarDreams';
+font-family: 'CaviarDreams', 'Quicksand';
 z-index:1;
 }
 

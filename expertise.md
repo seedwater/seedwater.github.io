@@ -3,7 +3,8 @@ layout: consulting_page
 title: EXPERTISE
 subtitle: Seedwater Consulting Expertise and Staff
 permalink: /consulting/expertise/
-
+image1: /assets/img/borehole2.jpg
+image2: /assets/img/borehole1.jpg
 ---
 *<h2>Rigorous, intelligent, and reliable.</h2>*
 

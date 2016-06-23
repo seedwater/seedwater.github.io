@@ -3,6 +3,8 @@ layout: consulting_page
 title: CONTACT
 subtitle: Contact Seedwater Consulting
 permalink: /consulting/contact/
+image1: /assets/img/fields-slim.jpg
+image2: /assets/img/chicago-slim.jpg
 ---
 
 [//]: # see http://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870
