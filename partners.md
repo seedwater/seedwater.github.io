@@ -3,6 +3,8 @@ layout: consulting_page
 title: PARTNERS
 subtitle: Seedwater Partners
 permalink: /consulting/partners/
+image1: /assets/img/fields-slim.jpg
+image2: /assets/img/chicago-slim.jpg
 ---
 
 <a href="http://www.sambia-schulen.de"> ![Professional Future Zambia]({{ site.baseurl }}/assets/img/PFZ.png "Professional Future Zambia")</a>
