@@ -1,5 +1,5 @@
 ---
-layout: solutions_page
+layout: solutions_page_2
 title: CONTACT
 subtitle: Contact Us
 permalink: /solutions/contact/
@@ -10,6 +10,7 @@ permalink: /solutions/contact/
 [//]: # input type="text" name="name" placeholder="Your name"> (This can go inside form element to input name)
 
 Please feel free to get in touch with inquiries about collaboration, services, volunteering, and financial contributions. We would love to hear from you.
+
 
 <a href="http://twitter.com/seedwater" target="_blank"> <i class="fa fa-twitter fa-2x"></i></a> @seedwater  
 <a href="http://facebook.com/seedwater" target="_blank"> <i class="fa fa-facebook fa-2x"></i></a>&nbsp;&nbsp;&nbsp; Seedwater Solutions  

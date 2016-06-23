@@ -42,7 +42,7 @@ Agriculture and Climate Specialist
 Fulbright Scholar  
 
 **JESSICA JONES-HUGHES, MPH**  
-*co-founder and Chairperson*  
+*co-founder and Chairwoman*  
 MPH, Tufts University  
 BS, Miami University of Ohio  
 Fair Trade, Supply Chains, and Equity Specialist  
