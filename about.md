@@ -1,13 +1,26 @@
 ---
-layout: consulting_page
+layout: about
 title: ABOUT
-permalink: /consulting/about/
+permalink: /about/
 ---
+> Let's change the world together. 
 
-> I believe that we can make the world even more amazing through attentiveness, genuine collaboration, equality, and training. 
+<br>
+The Seedwater Project is all about building justice and human understanding through hard work, human rights, community, and joy. We choose optimism and possibility as a response to injustice and suffering. Through our work, we aim to make the world a little happier, a little more equitable, and a little...kinder.
 
-My mother is probably the one ultimately responsible for my draw to agriculture, food, and justice. She showed me the importance of cooking and growing food - as a means of sharing joy, of nourishment, and even as a way change how the world functions. As an adult I've since worked with food and agriculture from multiple angles of attack: perfectionist line cook, farmworker, activist, scholar. My work with agriculture now focuses on scholarship, and on developing and employing effective ways to improve livelihoods through food and farming.
+<br>
+Seedwater has three arms, working together:
 
-I'm passionate about preventing the worst impacts of climate change (especially among smallholder farmers), and believe that pizza should probably not be considered a vegetable by US school lunch policy.  MS in Agroecology and Plant Pathology and on a Fulbright grant to Ethiopia in 2016 for agriculture and climate change research. Striving for integrity, rigor, and joy in personal and professional life.
+**The Seedwater Cafe**  
+A community cafe and wine shop in Fort Collins, CO  
+**Seedwater Solutions**  
+A global NGO partnering for community empowerment  
+**Seedwater Consulting**  
+A boutique justice-focused development consulting group  
+<br>
 
-Happy with loved ones (especially my better half <a href="mighti.co">Valerie</a>), outdoors, with plants and animals around, and exploring both new and familiar places. Problem with too many hobbies. 
+##Our Approach
+
+The founders of Seedwater come from a background international and agricultural development work, yet we also feel strong ties to the communities in the U.S. that we grew up in. We believe that the Seedwater Project can bring together people from all around the world, united in large and small ways - through the joy of sharing a meal, of working alongside each other with a common vision, and through a shared desire for a more joyful and equitable world for all human beings.
+
+Each of the three arms of the Seedwater Project are run on the foundations of fairness, quality, and community. Seedwater wishes to build an environment that improves the ability of the people we meet to acheive their full potential, and to alleviate conflict by building understanding across cultural boundaries.

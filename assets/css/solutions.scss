@@ -12,7 +12,8 @@ body {
 }
 
 .image-bg-fluid-height,
-.image-bg-fixed-height {
+.image-bg-fixed-height,
+.image-bg-fixed-height-2 {
     text-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -31,6 +32,13 @@ body {
     height: 450px;
     border-top: 25px solid rgba(234, 243, 222, 0.84);
     border-bottom: 5px solid rgba(240, 248, 255, 0.84);
+}
+
+.image-bg-fixed-height-2 {
+	background: url('{{ site.baseurl }}/assets/img/fields-slim.jpg') no-repeat center center scroll;
+    height: 125px;
+    border-top: 12px solid rgba(234, 243, 222, 0.84);
+    border-bottom: 3px solid rgba(240, 248, 255, 0.84);
 }
 
 .img-center {
@@ -257,8 +265,9 @@ div.pagebody {
 }
 
 .headerquote {
+    padding: 0px 20px;
     font-family:"Amatic SC";
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-style: italic;
     color: #72A775;
     border-left: 10px solid #eee;

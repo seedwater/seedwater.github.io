@@ -1,5 +1,5 @@
 ---
-layout: solutions_page
+layout: solutions_page_2
 title: AGRICULTURE
 subtitle: Agriculture
 permalink: /solutions/agriculture/

@@ -322,7 +322,7 @@ hr.style-two {
     max-width: 310px;
     vertical-align: middle;
     margin: 0 auto;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
 //end mobile test
 
@@ -522,7 +522,6 @@ hr {
 }
 
 strong {
-  color: #333;
   font-weight: 600;
 }
 
@@ -694,6 +693,14 @@ img.custom2 {
   margin: 0 auto;
   border-radius: 5px;
   margin-top: 2rem;
+}
+
+img.custom3 {
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 0rem;
+    margin-bottom: -1rem;
 }
 
 table {
@@ -1018,7 +1025,7 @@ footer {
 
 
 sticky-header{
-  position: absolute;
+  position: fixed;
   width: 100%;
   text-align: left;
   font-size: 72px;
@@ -1436,4 +1443,24 @@ main {
     background-color: none;
     margin-top: -1rem;
     margin-bottom: -2rem;
+}
+
+#homewrap2 {
+    border: none;
+    background-color: none;
+    margin-top: 4rem;
+    margin-bottom: -2rem;
+}
+
+#centerfooter {
+    display: table;
+    margin: 0 auto;
+    font-size: 1rem;
+    color:lightblue;
+    a {
+        color:lightblue;
+    }
+    a:hover{
+            color:slategray
+        }
 }
